@@ -81,7 +81,7 @@ At this point, I realized I hadn’t done recursive fuzzing yet. Running `ffuf` 
 ![img](./images/UnderPass/11ffuf_recursion.png)
 ![img](./images/UnderPass/12ffuf_recursion_result.png)
 
-Exploring `/users`, we’re presented with a login page:
+Exploring `/operators`, we’re presented with a login page:
 
 ![img](./images/UnderPass/13inspecting_login.png)
 
