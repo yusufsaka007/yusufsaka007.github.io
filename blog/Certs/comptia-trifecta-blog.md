@@ -13,7 +13,7 @@ If you're just getting into IT or cybersecurity, CompTIA certifications are one 
 
 ## Materials I used for learning
 
-Before diving into the materials I used, there’s something important you should keep in mind: everyone has their own way of learning—and so do I. What I’m offering here isn’t a one-size-fits-all solution. Instead, waht I give you is bunch of options you can pick from based on what fits your learning style best.
+Before diving into the materials I used, there’s something important you should keep in mind: everyone has their own way of learning—and so do I. What I’m offering here isn’t a one-size-fits-all solution. Instead, what I give you is bunch of options you can pick from based on what fits your learning style best.
 
 CompTIA provides official exam objectives for each of their certifications. You can grab them from this link: **[Exam objectives](https://www.comptia.org/en-us/certifications/security/#objectives)**
 
