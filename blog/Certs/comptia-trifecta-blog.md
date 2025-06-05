@@ -74,7 +74,7 @@ So make sure you *understand* how the technologies work, not just what they’re
 
 One last thing: **know your abbreviations.** I can’t stress this enough. This was the mistake I made on the Core 2 section of my A+ exam. I understood the concepts, but I didn’t know the abbreviations tied to the technologies—and they show up *everywhere*. So yeah, learn them. They matter.
 
-Other than that—just have fun. You don’t have to treat these topics like boring high school lectures delivered by some monotonous, unmotivated teacher (thankfully, Professor Messer is actually super fun to listen to). This is one of the most exciting fields out there, and I’m sure that’s true for all you fellow nerds (it is at least for me). It’s honestly mind-blowing how fast things evolve and how much progress is being made every day, it is absolutely interesting.
+Other than that—just have fun. You don’t have to treat these topics like boring high school lectures delivered by some monotonous, unmotivated teacher (thankfully, Professor Messer is actually super fun to listen to). This is one of the most exciting fields out there, and I’m sure that’s true for all you fellow nerds (it is at least for me). It’s honestly mind-blowing how fast things evolve and how much progress is being made every day, absolutely interesting.
 
 **If you’ve got a strong answer to *why* you’re doing this, figuring out *how* you’re going to do it becomes a lot easier.**
 
