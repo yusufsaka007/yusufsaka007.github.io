@@ -1,0 +1,31 @@
+{{- define "main" -}}
+
+<article>
+  {{- with .Params.image }}
+  <img src="{{ . }}" alt="{{ $.Title }}" class="post-cover">
+  {{- end }}
+  <header class="post-header">
+    <span class="post-tag {{ .Section }}">{{ .Section | replace "-" " " | title }}</span>
+    <h1>{{ .Title }}</h1>
+    <div class="post-info">
+      <span>{{ .Date.Format "January 02, 2006" }}</span>
+      <span>{{ .ReadingTime }} min read</span>
+      {{- with .Params.difficulty }}<span>difficulty: {{ . }}</span>{{- end }}
+      {{- with .Params.ctf }}<span>ctf: {{ . }}</span>{{- end }}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{- with .Params.tags }}
+  <div class="post-tags">
+    {{- range . }}
+    <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>
+    {{- end }}
+  </div>
+  {{- end }}
+</article>
+
+{{- end }}

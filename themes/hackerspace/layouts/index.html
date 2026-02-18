@@ -1,0 +1,95 @@
+{{- define "main" -}}
+
+<section class="hero">
+  <div class="terminal-block">
+    <div class="terminal-bar">
+      <span class="terminal-dot red"></span>
+      <span class="terminal-dot yellow"></span>
+      <span class="terminal-dot green"></span>
+      <span class="terminal-title">viv4ldi@ARCH4EA ~ $</span>
+    </div>
+    <div class="terminal-body">
+      <div class="terminal-line">
+        <span class="prompt">viv4ldi@ARCH4EA:~$</span>
+        <span class="cmd">whoami</span>
+      </div>
+      <p class="output">{{ .Site.Params.bio | default "Bug bounty hunter. CTF player. Security researcher." }}</p>
+
+      <div class="terminal-line">
+        <span class="prompt">viv4ldi@ARCH4EA:~$</span>
+        <span class="cmd">ls ./topics</span>
+      </div>
+      <p class="output">bug-bounty&nbsp;&nbsp;&nbsp;ctf&nbsp;&nbsp;&nbsp;certs&nbsp;&nbsp;&nbsp;misc</p>
+
+      <div class="terminal-line">
+        <span class="prompt">viv4ldi@ARCH4EA:~$</span>
+        <span class="cursor"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sections-grid">
+  <a href="/bug-bounty/" class="section-card">
+    <span class="section-icon">🔍</span>
+    <div class="section-name">bug-bounty/</div>
+    <div class="section-desc">Vulnerability research, write-ups, and methodologies from bug bounty programs.</div>
+    {{- $section := .Site.GetPage "/bug-bounty" -}}
+    {{- if $section }}
+    <div class="section-count">{{ len $section.Pages }} post{{ if ne (len $section.Pages) 1 }}s{{ end }}</div>
+    {{- end }}
+  </a>
+
+  <a href="/ctf/" class="section-card">
+    <span class="section-icon">🚩</span>
+    <div class="section-name">ctf/</div>
+    <div class="section-desc">Capture the Flag challenge solutions, techniques, and tooling breakdowns.</div>
+    {{- $section := .Site.GetPage "/ctf" -}}
+    {{- if $section }}
+    <div class="section-count">{{ len $section.Pages }} post{{ if ne (len $section.Pages) 1 }}s{{ end }}</div>
+    {{- end }}
+  </a>
+
+  <a href="/certs/" class="section-card">
+    <span class="section-icon">📜</span>
+    <div class="section-name">certs/</div>
+    <div class="section-desc">Certification reviews, study guides, and tips for the road to getting certified.</div>
+    {{- $section := .Site.GetPage "/certs" -}}
+    {{- if $section }}
+    <div class="section-count">{{ len $section.Pages }} post{{ if ne (len $section.Pages) 1 }}s{{ end }}</div>
+    {{- end }}
+  </a>
+
+  <a href="/misc/" class="section-card">
+    <span class="section-icon">✏️</span>
+    <div class="section-name">misc/</div>
+    <div class="section-desc">Non-hacking thoughts, life stuff, and anything that doesn't fit elsewhere.</div>
+    {{- $section := .Site.GetPage "/misc" -}}
+    {{- if $section }}
+    <div class="section-count">{{ len $section.Pages }} post{{ if ne (len $section.Pages) 1 }}s{{ end }}</div>
+    {{- end }}
+  </a>
+</div>
+
+{{- $recent := where .Site.RegularPages "Draft" false | first 5 -}}
+{{- if $recent }}
+<h2 class="section-heading">// recent posts</h2>
+<ul class="post-list">
+  {{- range $recent }}
+  <li class="post-card">
+    <a href="{{ .RelPermalink }}">
+      <div class="post-meta">
+        <span class="post-tag {{ .Section }}">{{ .Section | replace "-" " " | title }}</span>
+        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+      </div>
+      <div class="post-title">{{ .Title }}</div>
+      {{- with .Summary }}
+      <div class="post-excerpt">{{ . | plainify }}</div>
+      {{- end }}
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
+
+{{- end }}

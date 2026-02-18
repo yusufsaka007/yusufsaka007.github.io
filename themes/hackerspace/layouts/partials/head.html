@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{- with .Title }}
+<title>{{ . }} | {{ $.Site.Title }}</title>
+{{- else }}
+<title>{{ .Site.Title }}</title>
+{{- end }}
+
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="robots" content="index, follow">
+
+<!-- OpenGraph -->
+<meta property="og:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "/images/viv4ldi.webp" | absURL }}">
+
+<!-- Favicon -->
+<link rel="icon" type="image/webp" href="/images/viv4ldi.webp">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/main.css">

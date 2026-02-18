@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>viv4ldi</title>
+    <title>viv4ldi&#39;s blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on viv4ldi</description>
+    <description>Recent content on viv4ldi&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Completed the CompTIA Trifecta</title>
+      <link>http://localhost:1313/certs/comptia-trifecta/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/certs/comptia-trifecta/</guid>
+      <description>&lt;p&gt;I finally did it — I passed Security+ and wrapped up the CompTIA trifecta (A+, Network+, and Security+). It&amp;rsquo;s been a grind with a long 50 days, but a rewarding one. If you&amp;rsquo;re thinking about going down the same path, or already on your way, I want to share a few things I wish I knew when I started. This isn&amp;rsquo;t going to be one of those super polished, corporate-sounding guides. Just real talk on what to expect, what to study, and how to keep your head straight while doing it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTB - Underpass</title>
+      <link>http://localhost:1313/ctf/htb-underpass/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ctf/htb-underpass/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Underpass&lt;/strong&gt; is a beginner-friendly CTF from Hack The Box. It&amp;rsquo;s a great challenge for testing essential skills like basic reconnaissance and Linux privilege escalation.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;initial-recon&#34;&gt;Initial Recon&lt;/h2&gt;&#xA;&lt;p&gt;As usual, we begin with an &lt;code&gt;nmap&lt;/code&gt; scan. I performed a SYN scan using the &lt;code&gt;-sS&lt;/code&gt; flag for detailed output, but a regular TCP connect scan (&lt;code&gt;-sT&lt;/code&gt;) would work just as well.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ctf/underpass/1nmap_tcp.png&#34; alt=&#34;nmap TCP scan&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;To be thorough, I also ran a full UDP scan. Since these scans can be time-consuming and I&amp;rsquo;m taking these screenshots after completing the challenge, I specified the port numbers manually to speed up the process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;-whoami&#34;&gt;$ whoami&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;viv4ldi&lt;/strong&gt;, a bug bounty hunter and CTF player passionate about offensive security and vulnerability research.&lt;/p&gt;&#xA;&lt;h2 id=&#34;certifications&#34;&gt;Certifications&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;CPTS&lt;/strong&gt; - Certified Penetration Testing Specialist (HackTheBox)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;PJPT&lt;/strong&gt; - Practical Junior Penetration Tester (TCM Security)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA Security+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA Network+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA A+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;focus-areas&#34;&gt;Focus Areas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web application security&lt;/li&gt;&#xA;&lt;li&gt;API security testing&lt;/li&gt;&#xA;&lt;li&gt;Bug bounty hunting&lt;/li&gt;&#xA;&lt;li&gt;CTF competitions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;this-blog&#34;&gt;This Blog&lt;/h2&gt;&#xA;&lt;p&gt;This is where I document my findings, methodology, CTF writeups and maybe some thoughts about life. Enjoy :).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PJPT Review: My First Pentest Cert</title>
+      <link>http://localhost:1313/certs/pjpt-review/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/certs/pjpt-review/</guid>
+      <description>&lt;p&gt;I passed PJPT. The Practical Junior Penetration Tester certification by TCM Security. In this post I want to give my honest take on the preparation, what the exam is actually like, the report writing phase, and whether the whole thing is worth your time and money.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-pjpt&#34;&gt;What is PJPT?&lt;/h2&gt;&#xA;&lt;p&gt;According to TCM Security, PJPT is an associate-level exam for beginners looking to get into penetration testing and red teaming. You get 2 full days to complete the assessment by exploiting a vulnerable Active Directory environment, and an additional 2 days to write a commercial-grade penetration testing report. The voucher is valid for 12 months and comes with one free retake in case you don&amp;rsquo;t make it on the first try, which is a nice safety net.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
