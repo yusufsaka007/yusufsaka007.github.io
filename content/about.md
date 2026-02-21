@@ -9,7 +9,6 @@ I'm **viv4ldi**, a bug bounty hunter and CTF player passionate about offensive s
 
 ## Certifications
 
-- **CPTS** - Certified Penetration Testing Specialist (HackTheBox)
 - **PJPT** - Practical Junior Penetration Tester (TCM Security)
 - **CompTIA Security+** 
 - **CompTIA Network+**

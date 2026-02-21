@@ -6,8 +6,15 @@
     <description>Recent content on viv4ldi&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - CriticalOps</title>
+      <link>http://localhost:1313/ctf/htb-criticalops/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ctf/htb-criticalops/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;CriticalOps&lt;/strong&gt; is a web challenge from Hack The Box. The goal is to find a JWT signing key that was left exposed in client-side TypeScript code, then use it to forge a token with elevated privileges and grab the flag.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-a-jwt&#34;&gt;What is a JWT?&lt;/h2&gt;&#xA;&lt;p&gt;A JSON Web Token (JWT) is a compact, URL-safe way for two parties to pass claims between each other. You see them a lot in web authentication: after you log in, the server gives you a token that proves who you are, and you send it along with every request so the server knows to trust you.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How I Completed the CompTIA Trifecta</title>
       <link>http://localhost:1313/certs/comptia-trifecta/</link>
@@ -27,7 +34,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;-whoami&#34;&gt;$ whoami&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;viv4ldi&lt;/strong&gt;, a bug bounty hunter and CTF player passionate about offensive security and vulnerability research.&lt;/p&gt;&#xA;&lt;h2 id=&#34;certifications&#34;&gt;Certifications&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;CPTS&lt;/strong&gt; - Certified Penetration Testing Specialist (HackTheBox)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;PJPT&lt;/strong&gt; - Practical Junior Penetration Tester (TCM Security)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA Security+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA Network+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA A+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;focus-areas&#34;&gt;Focus Areas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web application security&lt;/li&gt;&#xA;&lt;li&gt;API security testing&lt;/li&gt;&#xA;&lt;li&gt;Bug bounty hunting&lt;/li&gt;&#xA;&lt;li&gt;CTF competitions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;this-blog&#34;&gt;This Blog&lt;/h2&gt;&#xA;&lt;p&gt;This is where I document my findings, methodology, CTF writeups and maybe some thoughts about life. Enjoy :).&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;-whoami&#34;&gt;$ whoami&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;viv4ldi&lt;/strong&gt;, a bug bounty hunter and CTF player passionate about offensive security and vulnerability research.&lt;/p&gt;&#xA;&lt;h2 id=&#34;certifications&#34;&gt;Certifications&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;PJPT&lt;/strong&gt; - Practical Junior Penetration Tester (TCM Security)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA Security+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA Network+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CompTIA A+&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;focus-areas&#34;&gt;Focus Areas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web application security&lt;/li&gt;&#xA;&lt;li&gt;API security testing&lt;/li&gt;&#xA;&lt;li&gt;Bug bounty hunting&lt;/li&gt;&#xA;&lt;li&gt;CTF competitions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;this-blog&#34;&gt;This Blog&lt;/h2&gt;&#xA;&lt;p&gt;This is where I document my findings, methodology, CTF writeups and maybe some thoughts about life. Enjoy :).&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yusufsaka007&#34;&gt;github.com/yusufsaka007&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/yusufsaka007/&#34;&gt;linkedin.com/in/yusufsaka007&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;X / Twitter: &lt;a href=&#34;https://x.com/yusufsaka007&#34;&gt;x.com/yusufsaka007&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>PJPT Review: My First Pentest Cert</title>

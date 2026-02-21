@@ -18,7 +18,7 @@ theme = 'hackerspace'
 [params]
   author = "viv4ldi"
   description = "Bug bounty hunting, CTF writeups, and security research."
-  bio = "Bug bounty hunter. CTF player. CPTS certified."
+  bio = "Bug bounty hunter. CTF player."
   github = "yusufsaka007"
   linkedin = "yusufsaka007"
   twitter = "yusufsaka007"
