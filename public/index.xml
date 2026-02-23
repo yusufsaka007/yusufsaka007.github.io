@@ -6,8 +6,15 @@
     <description>Recent content on viv4ldi&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - Interpreter</title>
+      <link>http://localhost:1313/ctf/htb-interpreter/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ctf/htb-interpreter/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Interpreter&lt;/strong&gt; is a medium difficulty Linux machine from Hack The Box. It involves exploiting an unauthenticated deserialization vulnerability in Mirth Connect (CVE-2023-43208) for the initial foothold, cracking a salted hash found in the application database to pivot to a user, then escalating privileges through a Python SSTI in a locally running Flask service.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h2&gt;&#xA;&lt;p&gt;As usual, we start with an nmap scan. Port 22 is open running OpenSSH on Debian, and ports 80 and 443 are also up.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>HTB - CriticalOps</title>
       <link>http://localhost:1313/ctf/htb-criticalops/</link>

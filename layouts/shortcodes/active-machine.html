@@ -1,0 +1,42 @@
+{{- if not (.Page.Store.Get "active-machine-css") -}}
+{{- .Page.Store.Set "active-machine-css" true -}}
+<style>
+.am-wrap {
+  position: relative;
+  margin-top: -160px;
+}
+.am-fade {
+  height: 160px;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+  pointer-events: none;
+}
+.am-box {
+  border: 1px solid var(--border);
+  border-left: 3px solid #febc2e;
+  background: var(--surface);
+  border-radius: 6px;
+  padding: 1.4rem 1.6rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.am-box .am-title {
+  color: #febc2e;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.03em;
+}
+.am-box p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+</style>
+{{- end -}}
+<div class="am-wrap">
+  <div class="am-fade"></div>
+  <div class="am-box">
+    <div class="am-title">&#9888; Machine Still Active</div>
+    <p>This machine is currently active on Hack The Box. The full writeup will be published once it retires.</p>
+  </div>
+</div>
