@@ -7,7 +7,7 @@ ctf: "Hack The Box"
 difficulty: "Medium"
 ---
 
-**Interpreter** is a medium difficulty Linux machine from Hack The Box. It involves exploiting an unauthenticated deserialization vulnerability in Mirth Connect (CVE-2023-43208) for the initial foothold, cracking a salted hash found in the application database to pivot to a user, then escalating privileges through a Python SSTI in a locally running Flask service.
+**Interpreter** is a medium difficulty Linux machine from Hack The Box.
 
 ---
 

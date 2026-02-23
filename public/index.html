@@ -121,8 +121,9 @@
         <span class="post-date">2026-02-23</span>
       </div>
       <div class="post-title">HTB - Interpreter</div>
-      <div class="post-excerpt">Interpreter is a medium difficulty Linux machine from Hack The Box. It involves exploiting an unauthenticated deserialization vulnerability in Mirth Connect (CVE-2023-43208) for the initial foothold, cracking a salted hash found in the application database to pivot to a user, then escalating privileges through a Python SSTI in a locally running Flask service.
+      <div class="post-excerpt">Interpreter is a medium difficulty Linux machine from Hack The Box.
 Nmap Scan As usual, we start with an nmap scan. Port 22 is open running OpenSSH on Debian, and ports 80 and 443 are also up.
+1PORT STATE SERVICE VERSION 222/tcp open ssh OpenSSH 9.2p1 Debian 2+deb12u7 (protocol 2.0) First thing I check is whether HTTP and HTTPS return the same content, and they do.
 </div>
     </a>
   </li>
