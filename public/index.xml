@@ -6,8 +6,15 @@
     <description>Recent content on viv4ldi&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - CCTV</title>
+      <link>http://localhost:1313/ctf/htb-cctv/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ctf/htb-cctv/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;CCTV&lt;/strong&gt; is a medium difficulty Linux machine from Hack The Box.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h2&gt;&#xA;&lt;p&gt;As usual, we start with an nmap scan.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681&#34;&gt;1&lt;/span&gt;&lt;span&gt;nmap -sT -sV -sC -oA nmap/cctv 10.129.3.52&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ctf/cctv/1nmap_scan.png&#34; alt=&#34;Nmap scan&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Port 80 is open. The webpage itself is relatively static.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ctf/cctv/2webpage.png&#34; alt=&#34;Webpage&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Following the staff login link we land on a ZoneMinder instance.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ctf/cctv/3zoneminder_login.png&#34; alt=&#34;ZoneMinder login page&#34;&gt;&lt;/p&gt;&#xA;&lt;style&gt;&#xA;.am-wrap {&#xA;  position: relative;&#xA;  margin-top: -160px;&#xA;}&#xA;.am-fade {&#xA;  height: 160px;&#xA;  background: linear-gradient(to bottom, transparent, var(--bg));&#xA;  pointer-events: none;&#xA;}&#xA;.am-box {&#xA;  border: 1px solid var(--border);&#xA;  border-left: 3px solid #febc2e;&#xA;  background: var(--surface);&#xA;  border-radius: 6px;&#xA;  padding: 1.4rem 1.6rem;&#xA;  text-align: center;&#xA;  margin-top: 0.5rem;&#xA;}&#xA;.am-box .am-title {&#xA;  color: #febc2e;&#xA;  font-weight: bold;&#xA;  font-size: 1rem;&#xA;  margin-bottom: 0.5rem;&#xA;  letter-spacing: 0.03em;&#xA;}&#xA;.am-box p {&#xA;  color: var(--text-muted);&#xA;  font-size: 0.9rem;&#xA;  margin: 0;&#xA;}&#xA;&lt;/style&gt;&lt;div class=&#34;am-wrap&#34;&gt;&#xA;  &lt;div class=&#34;am-fade&#34;&gt;&lt;/div&gt;&#xA;  &lt;div class=&#34;am-box&#34;&gt;&#xA;    &lt;div class=&#34;am-title&#34;&gt;&amp;#9888; Machine Still Active&lt;/div&gt;&#xA;    &lt;p&gt;This machine is currently active on Hack The Box. The full writeup will be published once it retires.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>HTB - Interpreter</title>
       <link>http://localhost:1313/ctf/htb-interpreter/</link>

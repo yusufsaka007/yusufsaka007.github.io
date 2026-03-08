@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.156.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.157.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>viv4ldi&#39;s blog | viv4ldi&#39;s blog</title>
@@ -95,7 +95,7 @@
     <span class="section-icon">🚩</span>
     <div class="section-name">ctf/</div>
     <div class="section-desc">Capture the Flag challenge solutions, techniques, and tooling breakdowns.</div>
-    <div class="section-count">3 posts</div>
+    <div class="section-count">4 posts</div>
   </a>
 
   <a href="/certs/" class="section-card">
@@ -114,6 +114,21 @@
 </div>
 <h2 class="section-heading">// recent posts</h2>
 <ul class="post-list">
+  <li class="post-card">
+    <a href="/ctf/htb-cctv/">
+      <div class="post-meta">
+        <span class="post-tag ctf">-</span>
+        <span class="post-date">2026-03-08</span>
+      </div>
+      <div class="post-title">HTB - CCTV</div>
+      <div class="post-excerpt">CCTV is a medium difficulty Linux machine from Hack The Box.
+Nmap Scan As usual, we start with an nmap scan.
+1nmap -sT -sV -sC -oA nmap/cctv 10.129.3.52 Port 80 is open. The webpage itself is relatively static.
+Following the staff login link we land on a ZoneMinder instance.
+&#9888; Machine Still Active This machine is currently active on Hack The Box. The full writeup will be published once it retires.
+</div>
+    </a>
+  </li>
   <li class="post-card">
     <a href="/ctf/htb-interpreter/">
       <div class="post-meta">
@@ -161,18 +176,6 @@ What is a JWT? A JSON Web Token (JWT) is a compact, URL-safe way for two parties
 Initial Recon As usual, we begin with an nmap scan. I performed a SYN scan using the -sS flag for detailed output, but a regular TCP connect scan (-sT) would work just as well.
 To be thorough, I also ran a full UDP scan. Since these scans can be time-consuming and I&rsquo;m taking these screenshots after completing the challenge, I specified the port numbers manually to speed up the process.
 </div>
-    </a>
-  </li>
-  <li class="post-card">
-    <a href="/about/">
-      <div class="post-meta">
-        <span class="post-tag ">-</span>
-        <span class="post-date">2026-01-01</span>
-      </div>
-      <div class="post-title">About</div>
-      <div class="post-excerpt">$ whoami I&rsquo;m viv4ldi, a bug bounty hunter and CTF player passionate about offensive security and vulnerability research.
-Certifications PJPT - Practical Junior Penetration Tester (TCM Security) CompTIA Security+ CompTIA Network+ CompTIA A+ Focus Areas Web application security API security testing Bug bounty hunting CTF competitions This Blog This is where I document my findings, methodology, CTF writeups and maybe some thoughts about life. Enjoy :).
-Contact GitHub: github.com/yusufsaka007 LinkedIn: linkedin.com/in/yusufsaka007 X / Twitter: x.com/yusufsaka007 </div>
     </a>
   </li>
 </ul>
