@@ -7,7 +7,8 @@
       "Bash(gh run watch:*)"
     ],
     "additionalDirectories": [
-      "/home/viv4ldi/Projects/viv4ldi-blog/layouts"
+      "/home/viv4ldi/Projects/viv4ldi-blog/layouts",
+      "/home/viv4ldi/Projects/viv4ldi-blog/tmp/craft"
     ]
   }
 }
