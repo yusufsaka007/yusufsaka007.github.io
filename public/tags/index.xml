@@ -6,13 +6,48 @@
     <description>Recent content in Tags on viv4ldi&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Api</title>
       <link>http://localhost:1313/tags/api/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authorization</title>
+      <link>http://localhost:1313/tags/authorization/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/authorization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bola</title>
+      <link>http://localhost:1313/tags/bola/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bola/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bug-Bounty</title>
+      <link>http://localhost:1313/tags/bug-bounty/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bug-bounty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphql</title>
+      <link>http://localhost:1313/tags/graphql/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/graphql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mobile/</guid>
       <description></description>
     </item>
     <item>

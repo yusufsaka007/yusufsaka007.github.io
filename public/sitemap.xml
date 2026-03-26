@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/bug-bounty/advanced-graphql-part1/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/api/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/authorization/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bola/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bug-bounty/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bug-bounty/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/graphql/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mobile/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ctf/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
@@ -32,13 +59,7 @@
     <loc>http://localhost:1313/tags/rce/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/vault/</loc>
-    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cve/</loc>
@@ -151,8 +172,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/tcm-security/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bug-bounty/</loc>
   </url><url>
     <loc>http://localhost:1313/misc/</loc>
   </url>

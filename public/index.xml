@@ -6,8 +6,15 @@
     <description>Recent content on viv4ldi&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced GraphQL Attacks: Part 1</title>
+      <link>http://localhost:1313/bug-bounty/advanced-graphql-part1/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bug-bounty/advanced-graphql-part1/</guid>
+      <description>&lt;p&gt;Recently I got interested in API hacking, seeing during my tests more and more companies transforming their architectures from monolithic design to microservices. In this first part of my GraphQL hacking series you will get an introduction on what GraphQL is, and at the end I will show a critical finding I found regarding the GraphQL API of Belgian train company NMBS/SNCB.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-are-apis&#34;&gt;What Are APIs&lt;/h2&gt;&#xA;&lt;p&gt;Being in this field it&amp;rsquo;s impossible to not be aware of APIs unless one lives under a rock.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>HTB - Craft</title>
       <link>http://localhost:1313/ctf/htb-craft/</link>
