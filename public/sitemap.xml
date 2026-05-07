@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/active-directory/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/certifications/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/certs/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cpts/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/certs/htb-cpts-review/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hack-the-box/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/penetration-testing/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/review/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bug-bounty/advanced-graphql-part1/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,12 +54,6 @@
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mobile/</loc>
-    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ctf/</loc>
@@ -113,12 +137,6 @@
     <loc>http://localhost:1313/tags/a&#43;/</loc>
     <lastmod>2026-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/certifications/</loc>
-    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/certs/</loc>
-    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/comptia/</loc>
     <lastmod>2026-02-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -155,19 +173,10 @@
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/active-directory/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/penetration-testing/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/pjpt/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/certs/pjpt-review/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/review/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tcm-security/</loc>
