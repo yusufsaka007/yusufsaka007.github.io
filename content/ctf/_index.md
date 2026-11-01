@@ -1,4 +1,4 @@
 ---
 title: "CTF Writeups"
-description: "Capture the Flag challenge solutions, techniques, and tooling breakdowns."
+description: "CTF solves and writeups, mostly from Hack The Box."
 ---

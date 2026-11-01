@@ -1,4 +1,4 @@
 ---
 title: "Certs"
-description: "Certification reviews, study guides, and tips from the trenches."
+description: "Reviews of certs I've taken and how I studied for them."
 ---

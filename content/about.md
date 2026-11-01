@@ -3,27 +3,15 @@ title: "About"
 date: 2026-01-01
 ---
 
-## $ whoami
+Hey, I'm **viv4ldi**. I hunt bugs on Intigriti, play CTFs and break stuff on Hack The Box.
 
-I'm **viv4ldi**, a bug bounty hunter and CTF player passionate about offensive security and vulnerability research.
+## Certs
 
-## Certifications
-
+- **CPTS** - Certified Penetration Testing Specialist (Hack The Box)
 - **PJPT** - Practical Junior Penetration Tester (TCM Security)
-- **CompTIA Security+** 
+- **CompTIA Security+**
 - **CompTIA Network+**
 - **CompTIA A+**
-
-## Focus Areas
-
-- Web application security
-- API security testing
-- Bug bounty hunting
-- CTF competitions
-
-## This Blog
-
-This is where I document my findings, methodology, CTF writeups and maybe some thoughts about life. Enjoy :).
 
 ## Contact
 

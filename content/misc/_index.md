@@ -1,4 +1,4 @@
 ---
 title: "Misc"
-description: "Non-hacking thoughts, life stuff, and everything else."
+description: "Stuff that doesn't fit anywhere else."
 ---

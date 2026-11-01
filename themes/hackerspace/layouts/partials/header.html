@@ -1,9 +1,6 @@
 <header class="site-header">
   <div class="container">
-    <a href="{{ "/" | relURL }}" class="site-brand">
-      <img src="/images/viv4ldi.webp" alt="{{ .Site.Params.author }}">
-      <span class="brand-name">{{ .Site.Title }}</span>
-    </a>
+    <a href="{{ "/" | relURL }}" class="site-brand">{{ .Site.Title }}</a>
     <nav aria-label="Main navigation">
       <ul class="site-nav">
         {{- range .Site.Menus.main }}

@@ -1,4 +1,4 @@
 ---
 title: "Bug Bounty"
-description: "Vulnerability research, write-ups, and methodologies from bug bounty hunting."
+description: "Writeups from bug bounty programs I hunt on."
 ---
