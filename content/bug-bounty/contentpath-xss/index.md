@@ -6,16 +6,14 @@ tags: ["xss", "dom-xss", "bug-bounty", "account-takeover", "csrf"]
 ---
 
 ## Intro
-Hey there, reader. I hope you are having a good day. In this blog post I will be sharing the story of a DOM based XSS I have found on a private program on Intigriti. I will start from explaining how an LLM I used told me that the javascript snippet in use was secure, how I came up with a regex bypass and how I escalated the PoC from a Medium severity to a one-click account takeover.
+Hey there, reader. I hope you are having a good day. In this blog post I will be sharing the story of a DOM based XSS I have found on a private bug bounty program. I will start from explaining how an LLM I used told me that the javascript snippet in use was secure, how I came up with a regex bypass and how I escalated the PoC from a Medium severity to a one-click account takeover.
 
-![alt text](image.png)
-
-Throughout this finding, I will refer to the program as `target.com`, since I am not able to share any details about the finding per Intigriti policies.
+Throughout this finding, I will refer to the program as `target.com`, since I am not able to share any details about the target.
 
 Get your coffee and enjoy.
 
 ## Initial testing
-I found this target on a private program on Intigriti. As usual I have created an account and started looking for interesting behaviour.
+I found this target on a private bug bounty program. As usual I have created an account and started looking for interesting behaviour.
 
 Target is a course provider, who offers learning material created by their partners through SCORM (Sharable Content Object Reference Model). SCORM is a standard that lets eLearning courses and Learning Management Systems (LMS) talk to each other.
 
