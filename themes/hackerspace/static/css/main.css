@@ -69,6 +69,14 @@ main {
   color: var(--text);
   font-weight: 700;
   font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-brand img {
+  width: 22px;
+  height: 22px;
 }
 
 .site-brand:hover {
