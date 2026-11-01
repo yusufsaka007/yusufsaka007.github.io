@@ -5,7 +5,7 @@ draft: false
 tags: ["graphql", "api", "bola", "bug-bounty", "mobile", "authorization"]
 ---
 
-Recently I got interested in API hacking, seeing during my tests more and more companies transforming their architectures from monolithic design to microservices. In this first part of my GraphQL hacking series you will get an introduction on what GraphQL is, and at the end I will show a critical finding I found regarding the GraphQL API of Belgian train company NMBS/SNCB.
+Recently I got interested in API hacking, seeing during my tests more and more companies transforming their architectures from monolithic design to microservices. In this first part of my GraphQL hacking series you will get an introduction on what GraphQL is, and at the end I will show a critical finding I found on a VDP program.
 
 ## What Are APIs
 
@@ -94,9 +94,9 @@ An advantage of using GraphQL is performance. GraphQL improves the speed of clie
 
 One of the most common vulnerabilities in GraphQL is broken authentication and authorization. Authentication and authorization are complex security controls in any API technology.
 
-## Broken Object Level Authorization (BOLA) in NMBS/SNCB
+## Broken Object Level Authorization (BOLA)
 
-One day I decided to take on a new challenge and instead of focusing on the web so much I decided to find vulnerabilities in a mobile asset. The Belgian train company [*NMBS/SNCB*](https://www.belgiantrain.be/nl/support/customer-service/responsible-disclosure) was the perfect target for this. Since it was a vulnerability disclosure program (VDP) it was expected to be less crowded, making it perfect for gaining some experience with mobile hacking. It was also located in Belgium and I used it quite often, so I knew the boundaries of the application.
+One day I decided to take on a new challenge and instead of focusing on the web so much I decided to find vulnerabilities in a mobile asset. I picked a VDP program that I was familiar with as a user, so I knew the boundaries of the application. Since it was a vulnerability disclosure program it was expected to be less crowded, making it perfect for gaining some experience with mobile hacking.
 
 I got my rooted Xiaomi and opened the application. I noticed there were different API calls and different domains in use for different functionalities.
 
@@ -104,9 +104,7 @@ So I started testing. Whenever I am looking for broken authorization bugs I like
 
 Upon logging in, I realized the server was giving me a JSON Web Token (JWT). If you want to learn more about JWT attacks refer to this [writeup](https://yusufsaka007.github.io/ctf/htb-criticalops/).
 
-![JWT token](/images/bug-bounty/advanced-graphql-part1/2jwt_token.png)
-
-Going to the homepage I noticed it makes different API calls, and some of them were going to *https://mobile-bff-ticketing.api.belgiantrain.be/api/graphql*.
+Going to the homepage I noticed it makes different API calls, and some of them were going to a GraphQL endpoint.
 
 As usual I tried firing up an **Introspection query**, which was disabled as expected. I then tried to generate the whole API schema by bruteforcing the suggestions, which was disabled as well. More about these techniques in later chapters.
 
@@ -114,7 +112,7 @@ At this point I started testing the available endpoints that I was aware of to a
 
 ```
 POST /api/graphql HTTP/1.1
-Host: mobile-bff-ticketing.api.belgiantrain.be
+Host: [redacted]
 Jwt: [attacker's valid JWT]
 Content-Type: application/json
 
@@ -141,9 +139,7 @@ Content-Type: application/json
 
 At this point I decided to run a quick **FFUF** scan to prove the impact. I created a short wordlist of customer IDs, fired up the tool, and started getting many hits disclosing sensitive information like first name, last name, birthdate, email, order ID, and so on.
 
-![FFUF results](/images/bug-bounty/advanced-graphql-part1/3ffuf_results.png)
-
-**NMBS/SNCB** fixed the bug quickly and were kind enough to offer me a spot on their wall of fame.
+The team fixed the bug quickly and were kind enough to offer me a spot on their wall of fame.
 
 ## Lessons Learned
 
