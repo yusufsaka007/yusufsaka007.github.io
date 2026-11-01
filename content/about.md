@@ -3,7 +3,7 @@ title: "About"
 date: 2026-01-01
 ---
 
-Hey, I'm **viv4ldi**. I hunt bugs on Intigriti, play CTFs and break stuff on Hack The Box.
+Hey, I'm **viv4ldi**. I am a bug hunter. I play CTFs and break stuff on Hack The Box.
 
 ## Certs
 
