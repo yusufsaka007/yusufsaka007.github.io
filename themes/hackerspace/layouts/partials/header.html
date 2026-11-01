@@ -1,9 +1,6 @@
 <header class="site-header">
   <div class="container">
-    <a href="{{ "/" | relURL }}" class="site-brand">
-      <img src="/images/vivaldi.svg" alt="" width="22" height="22">
-      {{ .Site.Title }}
-    </a>
+    <a href="{{ "/" | relURL }}" class="site-brand">{{ .Site.Title }}</a>
     <nav aria-label="Main navigation">
       <ul class="site-nav">
         {{- range .Site.Menus.main }}
