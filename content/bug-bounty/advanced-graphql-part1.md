@@ -104,6 +104,8 @@ So I started testing. Whenever I am looking for broken authorization bugs I like
 
 Upon logging in, I realized the server was giving me a JSON Web Token (JWT). If you want to learn more about JWT attacks refer to this [writeup](https://yusufsaka007.github.io/ctf/htb-criticalops/).
 
+![JWT token](/images/bug-bounty/advanced-graphql-part1/2jwt_token.png)
+
 Going to the homepage I noticed it makes different API calls, and some of them were going to a GraphQL endpoint.
 
 As usual I tried firing up an **Introspection query**, which was disabled as expected. I then tried to generate the whole API schema by bruteforcing the suggestions, which was disabled as well. More about these techniques in later chapters.
@@ -138,6 +140,8 @@ Content-Type: application/json
 ```
 
 At this point I decided to run a quick **FFUF** scan to prove the impact. I created a short wordlist of customer IDs, fired up the tool, and started getting many hits disclosing sensitive information like first name, last name, birthdate, email, order ID, and so on.
+
+![FFUF results](/images/bug-bounty/advanced-graphql-part1/3ffuf_results.png)
 
 The team fixed the bug quickly and were kind enough to offer me a spot on their wall of fame.
 
