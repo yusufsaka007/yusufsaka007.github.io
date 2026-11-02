@@ -1,5 +1,5 @@
 ---
-title: "Bypassing Regex Hell to 1 click ATO"
+title: "Bypassing Regex Hell to One-Click ATO"
 date: 2026-11-01
 draft: false
 tags: ["xss", "dom-xss", "bug-bounty", "account-takeover", "csrf"]
