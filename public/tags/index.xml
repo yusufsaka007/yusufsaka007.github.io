@@ -1,327 +1,381 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on viv4ldi&#39;s blog</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on viv4ldi&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Active-Directory</title>
-      <link>http://localhost:1313/tags/active-directory/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/active-directory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Certifications</title>
-      <link>http://localhost:1313/tags/certifications/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/certifications/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cpts</title>
-      <link>http://localhost:1313/tags/cpts/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cpts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hack-the-Box</title>
-      <link>http://localhost:1313/tags/hack-the-box/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hack-the-box/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Penetration-Testing</title>
-      <link>http://localhost:1313/tags/penetration-testing/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/penetration-testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Review</title>
-      <link>http://localhost:1313/tags/review/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Api</title>
-      <link>http://localhost:1313/tags/api/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/api/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Authorization</title>
-      <link>http://localhost:1313/tags/authorization/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/authorization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bola</title>
-      <link>http://localhost:1313/tags/bola/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bola/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bug-Bounty</title>
-      <link>http://localhost:1313/tags/bug-bounty/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bug-bounty/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Graphql</title>
-      <link>http://localhost:1313/tags/graphql/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/graphql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mobile/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eval</title>
-      <link>http://localhost:1313/tags/eval/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eval/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gogs</title>
-      <link>http://localhost:1313/tags/gogs/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gogs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Htb</title>
-      <link>http://localhost:1313/tags/htb/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/htb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Medium</title>
-      <link>http://localhost:1313/tags/medium/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/medium/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Otp</title>
-      <link>http://localhost:1313/tags/otp/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/otp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rce</title>
-      <link>http://localhost:1313/tags/rce/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rce/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vault</title>
-      <link>http://localhost:1313/tags/vault/</link>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vault/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cve</title>
-      <link>http://localhost:1313/tags/cve/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cve/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ligolo-Ng</title>
-      <link>http://localhost:1313/tags/ligolo-ng/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ligolo-ng/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Motioneye</title>
-      <link>http://localhost:1313/tags/motioneye/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/motioneye/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sqli</title>
-      <link>http://localhost:1313/tags/sqli/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sqli/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sqlmap</title>
-      <link>http://localhost:1313/tags/sqlmap/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sqlmap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zoneminder</title>
-      <link>http://localhost:1313/tags/zoneminder/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/zoneminder/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deserialization</title>
-      <link>http://localhost:1313/tags/deserialization/</link>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deserialization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mirth-Connect</title>
-      <link>http://localhost:1313/tags/mirth-connect/</link>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mirth-connect/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ssti</title>
-      <link>http://localhost:1313/tags/ssti/</link>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ssti/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Burpsuite</title>
-      <link>http://localhost:1313/tags/burpsuite/</link>
-      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/burpsuite/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Client-Side</title>
-      <link>http://localhost:1313/tags/client-side/</link>
-      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/client-side/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jwt</title>
-      <link>http://localhost:1313/tags/jwt/</link>
-      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jwt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
-      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>A&#43;</title>
-      <link>http://localhost:1313/tags/a&#43;/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/a&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Comptia</title>
-      <link>http://localhost:1313/tags/comptia/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/comptia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Daloradius</title>
-      <link>http://localhost:1313/tags/daloradius/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/daloradius/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Easy</title>
-      <link>http://localhost:1313/tags/easy/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/easy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash-Cracking</title>
-      <link>http://localhost:1313/tags/hash-cracking/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hash-cracking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mosh</title>
-      <link>http://localhost:1313/tags/mosh/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mosh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network&#43;</title>
-      <link>http://localhost:1313/tags/network&#43;/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/network&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security&#43;</title>
-      <link>http://localhost:1313/tags/security&#43;/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/security&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Snmp</title>
-      <link>http://localhost:1313/tags/snmp/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/snmp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Study-Guide</title>
-      <link>http://localhost:1313/tags/study-guide/</link>
-      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/study-guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pjpt</title>
-      <link>http://localhost:1313/tags/pjpt/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pjpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tcm-Security</title>
-      <link>http://localhost:1313/tags/tcm-security/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tcm-security/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on viv4ldi&#39;s blog</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on viv4ldi&#39;s blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Account-Takeover</title>
+				<link>http://localhost:1313/tags/account-takeover/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/account-takeover/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bug-Bounty</title>
+				<link>http://localhost:1313/tags/bug-bounty/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/bug-bounty/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Csrf</title>
+				<link>http://localhost:1313/tags/csrf/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/csrf/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Dom-Xss</title>
+				<link>http://localhost:1313/tags/dom-xss/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/dom-xss/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Xss</title>
+				<link>http://localhost:1313/tags/xss/</link>
+				<pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/xss/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Authorization</title>
+				<link>http://localhost:1313/tags/authorization/</link>
+				<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/authorization/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bfla</title>
+				<link>http://localhost:1313/tags/bfla/</link>
+				<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/bfla/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bola</title>
+				<link>http://localhost:1313/tags/bola/</link>
+				<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/bola/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Burp-Suite</title>
+				<link>http://localhost:1313/tags/burp-suite/</link>
+				<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/burp-suite/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Extensions</title>
+				<link>http://localhost:1313/tags/extensions/</link>
+				<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/extensions/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jwt</title>
+				<link>http://localhost:1313/tags/jwt/</link>
+				<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/jwt/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Active-Directory</title>
+				<link>http://localhost:1313/tags/active-directory/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/active-directory/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Certifications</title>
+				<link>http://localhost:1313/tags/certifications/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/certifications/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cpts</title>
+				<link>http://localhost:1313/tags/cpts/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/cpts/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hack-the-Box</title>
+				<link>http://localhost:1313/tags/hack-the-box/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/hack-the-box/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Penetration-Testing</title>
+				<link>http://localhost:1313/tags/penetration-testing/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/penetration-testing/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Review</title>
+				<link>http://localhost:1313/tags/review/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/review/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Api</title>
+				<link>http://localhost:1313/tags/api/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/api/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Graphql</title>
+				<link>http://localhost:1313/tags/graphql/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/graphql/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mobile</title>
+				<link>http://localhost:1313/tags/mobile/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/mobile/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Eval</title>
+				<link>http://localhost:1313/tags/eval/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/eval/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gogs</title>
+				<link>http://localhost:1313/tags/gogs/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/gogs/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Htb</title>
+				<link>http://localhost:1313/tags/htb/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/htb/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linux</title>
+				<link>http://localhost:1313/tags/linux/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Medium</title>
+				<link>http://localhost:1313/tags/medium/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/medium/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Otp</title>
+				<link>http://localhost:1313/tags/otp/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/otp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Rce</title>
+				<link>http://localhost:1313/tags/rce/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/rce/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Vault</title>
+				<link>http://localhost:1313/tags/vault/</link>
+				<pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/vault/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cve</title>
+				<link>http://localhost:1313/tags/cve/</link>
+				<pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/cve/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ligolo-Ng</title>
+				<link>http://localhost:1313/tags/ligolo-ng/</link>
+				<pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ligolo-ng/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Motioneye</title>
+				<link>http://localhost:1313/tags/motioneye/</link>
+				<pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/motioneye/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sqli</title>
+				<link>http://localhost:1313/tags/sqli/</link>
+				<pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/sqli/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sqlmap</title>
+				<link>http://localhost:1313/tags/sqlmap/</link>
+				<pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/sqlmap/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Zoneminder</title>
+				<link>http://localhost:1313/tags/zoneminder/</link>
+				<pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/zoneminder/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Deserialization</title>
+				<link>http://localhost:1313/tags/deserialization/</link>
+				<pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/deserialization/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mirth-Connect</title>
+				<link>http://localhost:1313/tags/mirth-connect/</link>
+				<pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/mirth-connect/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ssti</title>
+				<link>http://localhost:1313/tags/ssti/</link>
+				<pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ssti/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Burpsuite</title>
+				<link>http://localhost:1313/tags/burpsuite/</link>
+				<pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/burpsuite/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Client-Side</title>
+				<link>http://localhost:1313/tags/client-side/</link>
+				<pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/client-side/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Web</title>
+				<link>http://localhost:1313/tags/web/</link>
+				<pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/web/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>A&#43;</title>
+				<link>http://localhost:1313/tags/a&#43;/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/a&#43;/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Comptia</title>
+				<link>http://localhost:1313/tags/comptia/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/comptia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Daloradius</title>
+				<link>http://localhost:1313/tags/daloradius/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/daloradius/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Easy</title>
+				<link>http://localhost:1313/tags/easy/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/easy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hash-Cracking</title>
+				<link>http://localhost:1313/tags/hash-cracking/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/hash-cracking/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mosh</title>
+				<link>http://localhost:1313/tags/mosh/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/mosh/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Network&#43;</title>
+				<link>http://localhost:1313/tags/network&#43;/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/network&#43;/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Security&#43;</title>
+				<link>http://localhost:1313/tags/security&#43;/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/security&#43;/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Snmp</title>
+				<link>http://localhost:1313/tags/snmp/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/snmp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Study-Guide</title>
+				<link>http://localhost:1313/tags/study-guide/</link>
+				<pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/study-guide/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pjpt</title>
+				<link>http://localhost:1313/tags/pjpt/</link>
+				<pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/pjpt/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tcm-Security</title>
+				<link>http://localhost:1313/tags/tcm-security/</link>
+				<pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/tcm-security/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
